@@ -153,7 +153,7 @@
   <!-- ------------------------------------------------>
   <div class="row hw12">
     <div class="col-md-12 twenty">
-      透過作業六我學習到如何上傳與繳交不同的預測結果，並觀察分數變化以評估模型表現。這次作業讓我更了解評分系統的運作方式，通過觀察分數可以知道雖然medium training很多次但出來卻比simple分數還低，這就是overfitting的情況，strong的部分改用30 epochs去train就能超越simple和medium了。
+      透過作業六我學習到如何上傳與繳交不同的預測結果，並觀察分數變化以評估模型表現。這次作業讓我更了解評分系統的運作方式，通過觀察分數可以知道雖然medium training很多次但出來卻比simple分數還低，這就是overfitting的情況，strong的部分改用epochs=50,batch=4去train，預測conf、iou 參數調整成 0.1、0.5就能超越simple和medium了。
     </div>
   </div>
 
